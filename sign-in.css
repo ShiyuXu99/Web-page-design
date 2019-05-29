@@ -29,24 +29,7 @@ h1{
     text-align: center;
 }
 
-.email{
-    position: absolute;
-    top: 22.5%;
-    left: 15%;
-    width:70%;
-    height: 12%;
-    border: 2px solid rgb(223, 222, 221);
-    border-radius: 10px;
-    line-height: 120%;
-}
-.email p{
-    font-size: 16px;
-    color: rgb(223, 222, 221);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.Password{
+input[type="password"]{
     position: absolute;
     top: 40%;
     left: 15%;
@@ -56,14 +39,51 @@ h1{
     border-radius: 10px;
     line-height: 120%;
 }
-.Password p{
+.password::placeholder{
+    padding: 0px 0px 0px 5px;
     font-size: 16px;
     color: rgb(223, 222, 221);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input[type="checkbox"]{
+input[type="text"]{
     position: absolute;
-    top: 60%;
+    top: 22.5%;
     left: 15%;
+    width:70%;
+    height: 12%;
+    border: 2px solid rgb(223, 222, 221);
+    border-radius: 10px;
+    line-height: 120%;
+}
+.Email::placeholder{
+    padding: 5px;
+    font-size: 16px;
+    color: rgb(223, 222, 221);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.check{
+    position: absolute;
+    top: 55%;
+    left: 37.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+button[type="submit"]{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    width:40%;
+    height: 12%;
+    background-color: rgb(223, 222, 221);
+    border: none;
+    border-radius: 10px;
+    line-height: 120%;
+}
+button:hover{
+    background-color: #FFB5A6;
+    font-weight: bold;
+    color: gray;
 }
